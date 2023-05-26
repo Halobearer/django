@@ -1,0 +1,17 @@
+API(Application Programming Interface)- is way we expose our resources to the client
+(web or mobile app) through endpoints.
+
+Restful APIs - Representational State Transfer defines rules for client-sever communication over the internet.
+This make our application fast, scalable, Reliable, easy to understand and change
+
+Resources are objects in our application, They are accessed through the Url(web address) and the URL must follow
+a specific pattern
+
+INSTALLATION WALKOUT for restful API
+======================================
+* pipenv install djangorestframework
+* Add to list of INSTALLED APPS
+
+Serializer defines the fields to be shown to the user because some information's are sensitive e.g date_of_death
+
+Serializer is how we convert a Python Object to JSON Format
