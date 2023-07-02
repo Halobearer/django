@@ -42,7 +42,7 @@ class BookSerializer(serializers.ModelSerializer):
 
 class UserCreateSerializer(BaseUserCreateSerializer):
     class Meta(BaseUserCreateSerializer.Meta):
-        fields = ['id', 'username', 'email', 'first_name', 'last_name']
+        fields = ['id', 'username', 'email', 'first_name', 'last_name', 'password']
 
 # title = serializers.CharField(max_length=255)
 # # author = serializers.
